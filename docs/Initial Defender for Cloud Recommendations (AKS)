@@ -1,0 +1,11 @@
+AKS nodes should have vulnerability findings resolved
+Upgrade Kubernetes nodes Version
+Virtual machines and virtual machine scale sets should have encryption at host enabled
+Audit flow logs configuration for every virtual network
+Azure Kubernetes Service clusters should have Defender profile enabled
+Both operating systems and data disks in Azure Kubernetes Service clusters should be encrypted by customer-managed keys
+Flow logs should be configured for every network security group
+Kubernetes API server should be configured with restricted access
+OS and data disks should be encrypted with a customer-managed key
+Temp disks and cache for agent node pools in Azure Kubernetes Service clusters should be encrypted at host
+Virtual networks should be protected by Azure Firewall  
