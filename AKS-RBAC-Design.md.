@@ -1,0 +1,12 @@
+Why use Microsoft Entra ID with AKS?
+ Entra ID provides centralized identity, MFA, Conditional Access, auditing, lifecycle management, and integration with Azure governance.
+Azure RBAC vs. Kubernetes RBAC
+  Azure RBAC controls access to the cluster and integrating identities, while Kuberenetes RBAC controls permissions on objects within the cluster.
+Why use namespaces?
+  We used namespaces to isolate our development, testing, and production. Benefits of namespaces include easier security admininstration, organizing resources, segmentation,
+  etc.
+Why shouldn't developers be Cluster Admins?
+  This goes against least privilege principles as they can escalate privileges, accidental deletions, access to secrets, reduced separations, increased attack surface, etc.
+How does this support Zero Trust?
+  Under this framework, every user must authenticate for access to these resources, they only receive the permissions necessary to do their job, and it is continuously 
+  subjected to centralized governance and auditing.
